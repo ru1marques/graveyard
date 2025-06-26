@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <title>Graveyard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <nav class="header">
+  <ul>
+    <li><a class="h1" href="index.htm">Graveyard</a></li>
+    <li><a id="openMenu" class="h1 menu-toggle" href="#">☰</a></li>
+  </ul>
+</nav>
+
+<div class="menu-overlay"></div>
+
+<div id="sideMenu" class="side-menu">
+  <button id="closeMenu" class="close-btn">×</button>
+  <ul class="menu-list">
+    <li><a href="#">Submissions</a></li>
+    <li><a href="#">Info</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Página 4</a></li>
+    <li><a href="#">@graveyard.rip</a></li>
+  </ul>
+</div>
+
+
+  <div>
+    <div class="grid" id="imageGrid">
+      <!-- As imagens vão ser inseridas aqui pelo JS -->
+    </div>
+  </div>
+
+  <!-- Modal (deve estar fora da .img-container!) -->
+  <div id="imgModal" class="modal" onclick="closeModal()">
+    <img id="modalImg" class="modal-content" />
+  </div>
+
+  <script src="script.js">
+  </script>
+</body>
+
+
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!-- saved from url=(0031)http://localhost:3000/index.htm -->
+<html lang="pt"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <title>Graveyard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./Graveyard_files/styles.css">
+</head>
+
+<body>
+  <nav class="header">
+    <ul>
+      <li><a class="h1" href="http://localhost:3000/index.htm">Graveyard</a></li>
+      <li><a class="h1 menu-toggle" href="http://localhost:3000/index.htm">☰</a></li>
+    </ul>
+  </nav>
+
+  <!-- Menu lateral -->
+  <div id="sideMenu" class="side-menu">
+    <button id="closeMenu" class="close-btn">×</button>
+    <ul class="menu-list">
+      <li><a href="http://localhost:3000/index.htm#">Submissions</a></li>
+      <li><a href="http://localhost:3000/index.htm#">Info</a></li>
+      <li><a href="http://localhost:3000/index.htm#">About</a></li>
+      <li><a href="http://localhost:3000/index.htm#">Página 4</a></li>
+      <li><a href="http://localhost:3000/index.htm#">@graveyard.rip</a></li>
+    </ul>
+  </div>
+
+  <div>
+    <div class="grid" id="imageGrid">
+      <!-- As imagens vão ser inseridas aqui pelo JS -->
+    </div>
+  </div>
+
+  <!-- Modal (deve estar fora da .img-container!) -->
+  <div id="imgModal" class="modal" onclick="closeModal()">
+    <img id="modalImg" class="modal-content">
+  </div>
+
+  <script src="./Graveyard_files/script.js"></script>
+
+
+</body></html>
