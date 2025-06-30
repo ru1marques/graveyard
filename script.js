@@ -1,4 +1,4 @@
-const apiURL = "https://better-desk-085f85a7e0.strapiapp.com/api/entries?populate=*";
+const apiURL = "https://better-desk-085f85a7e0.strapiapp.com/admin";
 
 
 //menuuuuu
