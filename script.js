@@ -82,7 +82,7 @@ async function loadImages() {
   div.className = "img-container";
 
   div.innerHTML = `
-    <img src="http://localhost:1337${imageUrl}" alt="${authorName}" onclick="openModal(this.src)" style="cursor: pointer;">
+ <img src="https://better-desk-085f85a7e0.strapiapp.com${imageUrl}" alt="${authorName}" onclick="openModal(this.src)" style="cursor: pointer;">
     <a href="${authorLink}" target="_blank" class="overlay-link">
       <div class="overlay">
         <span class="author">${authorName} ↗</span>
